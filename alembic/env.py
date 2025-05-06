@@ -3,8 +3,6 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import engine_from_config, pool
 
-
-
 # Imports to support database version control
 from core.config import Base, DATABASE_URL
 import models
