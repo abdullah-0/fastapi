@@ -34,10 +34,14 @@ A clean, extensible, and production-ready FastAPI boilerplate designed for build
 git clone https://github.com/abdullah-0/fastapi-boilerplate.git
 cd fastapi-boilerplate
 ```
-
-### Start the containers
+## Container Setup
+### Local Development
 ```
-docker-compose up --build
+docker-compose -f docker-compose.local.yml up --build -d
+```
+### Production Development
+```
+docker-compose -f docker-compose.prod.yml up --build -d
 ```
 🔧 Local Development Setup
 --------------------------

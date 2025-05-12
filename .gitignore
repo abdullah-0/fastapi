@@ -7,3 +7,5 @@ env/
 venv/
 # IDE
 .idea/
+# Docker Volumes
+volume/
